@@ -1,0 +1,76 @@
+@font-face{
+    font-family: mine;
+    src: url("../midia/fonts/Minecraft.ttf") format('truetype');
+}
+
+html, body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header>*{
+    margin: 10px;
+}
+
+header>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    transition: .2s;
+}
+
+header>a:hover{
+    color: white;
+    background-color: black;
+}
+
+div#fora{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#cima{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: mine;
+}
+
+div#traco{
+    width: 480px;
+    height: 2px;
+    background-color: black;
+}
+
+div#linha{
+    width: 480px;
+}
+
+div.dentro{
+    display: flex;
+}
+
+img{
+    width: 48px;
+    height: 24px;
+}
+
+img.tijolinho{
+    width: 24px;
+}
