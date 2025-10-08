@@ -3,10 +3,16 @@
     src: url("../midia/fonts/Minecraft.ttf") format('truetype');
 }
 
+:root{
+    
+}
+
 html, body{
     margin: 0;
     border: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -37,7 +43,7 @@ header>a:hover{
 
 div#fora{
     width: 100%;
-    height: 1600px;
+    height: 623.4%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +51,7 @@ div#fora{
 }
 
 div#cima{
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,13 +59,13 @@ div#cima{
 }
 
 div#traco{
-    width: 480px;
+    width: 100%;
     height: 2px;
     background-color: black;
 }
 
 div#linha{
-    width: 480px;
+    width: 100%;
 }
 
 div.dentro{
@@ -67,10 +73,10 @@ div.dentro{
 }
 
 img{
-    width: 48px;
-    height: 24px;
+    width: 10%;
+    height: 5%;
 }
 
 img.tijolinho{
-    width: 24px;
+    width: 5%;
 }
